@@ -1,10 +1,10 @@
 const { InSim, PacketType, UserType , IS_BTN, ButtonStyles , IS_MTC , MessageSound, IS_BFN, IS_OCO, BulbInfo, OCOAction, OCOIndex, IS_BTT , IS_TINY, TinyType} = require('insim.js');
 
 const insim = new InSim({
-  host: '35.226.125.45', //ip host
+  host: '127.0.0.1', //ip host
   port: 29999,  //port
   name: '^7Rodrigo^0557',  //insim name
-  password: '&@{6eOqg', //adm password
+  password: 'adminpassword', //adm password
   prefix: "!" //prefix commands
 });
 
